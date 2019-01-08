@@ -6,17 +6,17 @@ export default class Portfolio extends Component {
         <section id="portfolio">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Check Out Some of My Works.</h1>
+              <h1>Some Projects I Worked On.</h1>
               {/* portfolio-wrapper */}
               <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-01" title>
-                      <img alt src="images/portfolio/coffee.jpg" />
+                      <img alt src="images/portfolio/imono4.png" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Coffee</h5>
-                          <p>Illustrration</p>
+                          <h5>IMONO</h5>
+                          <p>Hubspot Custom Template</p>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
@@ -26,10 +26,10 @@ export default class Portfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-02" title>
-                      <img alt src="images/portfolio/console.jpg" />
+                      <img alt src="images/portfolio/angular1.png" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Console</h5>
+                          <h5>Angular</h5>
                           <p>Web Development</p>
                         </div>
                       </div>
@@ -40,10 +40,10 @@ export default class Portfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-03" title>
-                      <img alt src="images/portfolio/judah.jpg" />
+                      <img alt src="images/portfolio/bb1.png" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Judah</h5>
+                          <h5>Bowery Bowl</h5>
                           <p>Webdesign</p>
                         </div>
                       </div>
@@ -54,11 +54,11 @@ export default class Portfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-04" title>
-                      <img alt src="images/portfolio/into-the-light.jpg" />
+                      <img alt src="images/portfolio/hitFinder.png" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Into The Light</h5>
-                          <p>Photography</p>
+                          <h5>hitFinder</h5>
+                          <p>App</p>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
@@ -68,11 +68,11 @@ export default class Portfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-05" title>
-                      <img alt src="images/portfolio/farmerboy.jpg" />
+                      <img alt src="images/portfolio/stringTheory.png" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Farmer Boy</h5>
-                          <p>Branding</p>
+                          <h5>String Theory</h5>
+                          <p>MEAN Stack</p>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
@@ -82,11 +82,11 @@ export default class Portfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-06" title>
-                      <img alt src="images/portfolio/girl.jpg" />
+                      <img alt src="images/portfolio/musicwatts-1.png" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Girl</h5>
-                          <p>Photography</p>
+                          <h5>Music Watts</h5>
+                          <p>WordPress</p>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
@@ -96,11 +96,11 @@ export default class Portfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-07" title>
-                      <img alt src="images/portfolio/origami.jpg" />
+                      <img alt src="images/portfolio/iw1.png" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Origami</h5>
-                          <p>Illustrration</p>
+                          <h5>iWant</h5>
+                          <p>App</p>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
@@ -110,10 +110,10 @@ export default class Portfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-08" title>
-                      <img alt src="images/portfolio/retrocam.jpg" />
+                      <img alt src="images/portfolio/ebuys11.png" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Retrocam</h5>
+                          <h5>eBuys</h5>
                           <p>Web Development</p>
                         </div>
                       </div>
