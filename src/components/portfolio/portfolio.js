@@ -6,7 +6,7 @@ export default class Portfolio extends Component {
         <section id="portfolio">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Some Projects I Worked On.</h1>
+              <h1>Some Projects I Have Worked On.</h1>
               {/* portfolio-wrapper */}
               <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 <div className="columns portfolio-item">
