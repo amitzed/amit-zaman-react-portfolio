@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 export default class Header extends Component {
   render() {
+    let mySiteData = this.props.mySiteData;
     return (
       <React.Fragment>
         <header id="home">
@@ -17,19 +18,14 @@ export default class Header extends Component {
           </nav> {/* end #nav-wrap */}
           <div className="row banner">
             <div className="banner-text">
-              <h1 className="responsive-headline">I'm Amit Zaman.</h1>
-              <h3>I'm a New York based <span>Web Developer</span>, <span>Full Stack Developer</span> and <span>Web Designer</span> creating awesome and
-                effective visual identities for companies of all sizes around the globe. Let's <a className="smoothscroll" href="#about">start scrolling</a>
-                and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
+              <h1 className="responsive-headline">{mySiteData.name}</h1>
+              <h3>{mySiteData.role}</h3>
+              <h3> Click <a className="smoothscroll" href="#about">here </a>to learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
               <hr />
               <ul className="social">
-                <li><a target="_blank" href="#"><i className="fa fa-facebook" /></a></li>
-                <li><a target="_blank" href="#"><i className="fa fa-twitter" /></a></li>
-                <li><a target="_blank" href="#"><i className="fa fa-google-plus" /></a></li>
-                <li><a target="_blank" href="#"><i className="fa fa-linkedin" /></a></li>
-                <li><a target="_blank" href="#"><i className="fa fa-instagram" /></a></li>
-                <li><a target="_blank" href="#"><i className="fa fa-dribbble" /></a></li>
-                <li><a target="_blank" href="#"><i className="fa fa-skype" /></a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/amitzaman/"><i className="fa fa-linkedin" /></a></li>
+                <li><a target="_blank" href="https://github.com/amitzed"><i className="fa fa-github" /></a></li>
+                <li><a target="_blank" href="https://amitzaman.com/"><i className="fa fa-globe" /></a></li>                
               </ul>
             </div>
           </div>
