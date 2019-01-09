@@ -126,9 +126,9 @@ export default class Portfolio extends Component {
             {/* Modal Popup
   	      --------------------------------------------------------------- */}
             <div id="modal-01" className="popup-modal mfp-hide">
-              <img className="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt />
+              <img className="scale-with-grid" src="images/portfolio/modals/m-imono4.png" alt />
               <div className="description-box">
-                <h4>Coffee Cup</h4>
+                <h4>IMONO - HubSpot Custom Template</h4>
                 <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                 <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
               </div>
@@ -138,9 +138,9 @@ export default class Portfolio extends Component {
               </div>
             </div>{/* modal-01 End */}
             <div id="modal-02" className="popup-modal mfp-hide">
-              <img className="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt />
+              <img className="scale-with-grid" src="images/portfolio/modals/m-angular1.png" alt />
               <div className="description-box">
-                <h4>Console</h4>
+                <h4>Dramatic Designs - Angular Site</h4>
                 <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                 <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
               </div>
@@ -150,9 +150,9 @@ export default class Portfolio extends Component {
               </div>
             </div>{/* modal-02 End */}
             <div id="modal-03" className="popup-modal mfp-hide">
-              <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt />
+              <img className="scale-with-grid" src="images/portfolio/modals/m-bb1.png" alt />
               <div className="description-box">
-                <h4>Judah</h4>
+                <h4>Bowery Bowl - Laravel/PHP, MySQL & Vue.js</h4>
                 <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                 <span className="categories"><i className="fa fa-tag" />Branding</span>
               </div>
@@ -162,9 +162,9 @@ export default class Portfolio extends Component {
               </div>
             </div>{/* modal-03 End */}
             <div id="modal-04" className="popup-modal mfp-hide">
-              <img className="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt />
+              <img className="scale-with-grid" src="images/portfolio/modals/m-hitFinder.png" alt />
               <div className="description-box">
-                <h4>Into the Light</h4>
+                <h4>hitFinder - MEAN Stack (Collaboration)</h4>
                 <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                 <span className="categories"><i className="fa fa-tag" />Photography</span>
               </div>
@@ -174,9 +174,9 @@ export default class Portfolio extends Component {
               </div>
             </div>{/* modal-04 End */}
             <div id="modal-05" className="popup-modal mfp-hide">
-              <img className="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt />
+              <img className="scale-with-grid" src="images/portfolio/modals/m-stringTheory.png" alt />
               <div className="description-box">
-                <h4>Farmer Boy</h4>
+                <h4>String Theory - REST, EJS, Express, Mongoose, Node</h4>
                 <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                 <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
               </div>
@@ -186,9 +186,9 @@ export default class Portfolio extends Component {
               </div>
             </div>{/* modal-05 End */}
             <div id="modal-06" className="popup-modal mfp-hide">
-              <img className="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt />
+              <img className="scale-with-grid" src="images/portfolio/modals/m-musicwatts-1.png" alt />
               <div className="description-box">
-                <h4>Girl</h4>
+                <h4>Music Watt - WordPress Custom Template</h4>
                 <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                 <span className="categories"><i className="fa fa-tag" />Photography</span>
               </div>
@@ -198,9 +198,9 @@ export default class Portfolio extends Component {
               </div>
             </div>{/* modal-06 End */}
             <div id="modal-07" className="popup-modal mfp-hide">
-              <img className="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt />
+              <img className="scale-with-grid" src="images/portfolio/modals/m-iw1.png" alt />
               <div className="description-box">
-                <h4>Origami</h4>
+                <h4>iWant - Vue.js & BootStrap</h4>
                 <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                 <span className="categories"><i className="fa fa-tag" />Branding, Illustration</span>
               </div>
@@ -210,9 +210,9 @@ export default class Portfolio extends Component {
               </div>
             </div>{/* modal-07 End */}
             <div id="modal-08" className="popup-modal mfp-hide">
-              <img className="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt />
+              <img className="scale-with-grid" src="images/portfolio/modals/m-ebuys11.png" alt />
               <div className="description-box">
-                <h4>Retrocam</h4>
+                <h4>eBuys - Ruby on Rails, React.js & PostgreSQL</h4>
                 <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                 <span className="categories"><i className="fa fa-tag" />Webdesign, Photography</span>
               </div>
