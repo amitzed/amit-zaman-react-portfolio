@@ -6,7 +6,7 @@ export default class Portfolio extends Component {
         <section id="portfolio">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Some Projects I Have Worked On.</h1>
+              <h1>Some Projects I Have Worked On</h1>
               {/* portfolio-wrapper */}
               <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 <div className="columns portfolio-item">
@@ -29,8 +29,8 @@ export default class Portfolio extends Component {
                       <img alt src="images/portfolio/angular1.png" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Angular</h5>
-                          <p>Web Development</p>
+                          <h5>Dramatic Designs</h5>
+                          <p>Angular JS</p>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
@@ -44,7 +44,7 @@ export default class Portfolio extends Component {
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>Bowery Bowl</h5>
-                          <p>Webdesign</p>
+                          <p>Laravel, PHP, Vue JS</p>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
@@ -58,7 +58,7 @@ export default class Portfolio extends Component {
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>hitFinder</h5>
-                          <p>App</p>
+                          <p>MEAN Stack</p>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
@@ -72,7 +72,7 @@ export default class Portfolio extends Component {
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>String Theory</h5>
-                          <p>MEAN Stack</p>
+                          <p>Express, Mongoose, Node JS</p>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
@@ -86,7 +86,7 @@ export default class Portfolio extends Component {
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>Music Watts</h5>
-                          <p>WordPress</p>
+                          <p>WordPress Custom Theme</p>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
@@ -100,7 +100,7 @@ export default class Portfolio extends Component {
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>iWant</h5>
-                          <p>App</p>
+                          <p>Vue JS</p>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
@@ -114,7 +114,7 @@ export default class Portfolio extends Component {
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>eBuys</h5>
-                          <p>Web Development</p>
+                          <p>Ruby on Rails & React JS</p>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
@@ -129,11 +129,11 @@ export default class Portfolio extends Component {
               <img className="scale-with-grid" src="images/portfolio/modals/m-imono4.png" alt />
               <div className="description-box">
                 <h4>IMONO - HubSpot Custom Template</h4>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
+                <p>A simple Landing Page site built first to deploy to Heroku and then to recreate and deploy a version of this site on HubSpot.</p>
+                <span className="categories"><i className="fa fa-tag" />HubSpot, Web Design</span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
+                <a target="_blank" href="http://hubspot-developers-w1y9qt-5186824.hs-sites.com/imono">HubSpot-Live-Site</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-01 End */}
@@ -141,11 +141,11 @@ export default class Portfolio extends Component {
               <img className="scale-with-grid" src="images/portfolio/modals/m-angular1.png" alt />
               <div className="description-box">
                 <h4>Dramatic Designs - Angular Site</h4>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
+                <p>This Angular / Typescript app has several pages that can be accessed via the navigation bar. Future upgrades will include a gallery of projects on the "Our Work" page and likely feature Hero Zoom and Parallax effects.</p>
+                <span className="categories"><i className="fa fa-tag" />Angular, Web Development</span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
+                <a target="_blank" href="https://amitzaman.com/portfolio/dramatic-designs/">Live-Site</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-02 End */}
@@ -153,11 +153,11 @@ export default class Portfolio extends Component {
               <img className="scale-with-grid" src="images/portfolio/modals/m-bb1.png" alt />
               <div className="description-box">
                 <h4>Bowery Bowl - Laravel/PHP, MySQL & Vue.js</h4>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <span className="categories"><i className="fa fa-tag" />Branding</span>
+                <p>This restaurant site has all workable menus and the Reservations page records all input messages and alerts/flash messages user when no required information is entered or when required information is sent/received.</p>
+                <span className="categories"><i className="fa fa-tag" />Laravel, Branding, PHP, Vue</span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
+                <a target="_blank" href="http://bowerybowl.herokuapp.com/">Live-Site</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-03 End */}
@@ -165,11 +165,11 @@ export default class Portfolio extends Component {
               <img className="scale-with-grid" src="images/portfolio/modals/m-hitFinder.png" alt />
               <div className="description-box">
                 <h4>hitFinder - MEAN Stack (Collaboration)</h4>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <span className="categories"><i className="fa fa-tag" />Photography</span>
+                <p>In the interface of hitFinder an unregistered user can do a search for a list of hit songs by month, day and year, but they must be a registered and logged-in user to be able to create, edit, delete and save their personal playlists. Registed users can delete individual songs in their playlist or the whole playlist itself.</p>
+                <span className="categories"><i className="fa fa-tag" />MEAN Stack, Mongoose, Express, Angular, Node, BCRYPT</span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
+                <a target="_blank" href="https://mighty-island-52745.herokuapp.com/">Live-Site</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-04 End */}
@@ -177,11 +177,11 @@ export default class Portfolio extends Component {
               <img className="scale-with-grid" src="images/portfolio/modals/m-stringTheory.png" alt />
               <div className="description-box">
                 <h4>String Theory - REST, EJS, Express, Mongoose, Node</h4>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
+                <p>In Builing this project, Node.js, Mongoose, Express and EJS were used and adhered to the MVC file structure. Additionally, several models had all 7 RESTful routes used and full CRUD.</p>
+                <span className="categories"><i className="fa fa-tag" />EJS, Mongoose, Express, Node, Webdesign</span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
+                <a target="_blank" href="https://rocky-eyrie-78125.herokuapp.com/">Live-Site</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-05 End */}
@@ -189,11 +189,11 @@ export default class Portfolio extends Component {
               <img className="scale-with-grid" src="images/portfolio/modals/m-musicwatts-1.png" alt />
               <div className="description-box">
                 <h4>Music Watt - WordPress Custom Template</h4>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <span className="categories"><i className="fa fa-tag" />Photography</span>
+                <p>A Custom Theme Created in Wordpress.</p>
+                <span className="categories"><i className="fa fa-tag" />WordPress, Custom Theme, Web Design, PHP</span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
+                <a target="_blank" href="http://www.behance.net">Live-Site</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-06 End */}
@@ -201,11 +201,12 @@ export default class Portfolio extends Component {
               <img className="scale-with-grid" src="images/portfolio/modals/m-iw1.png" alt />
               <div className="description-box">
                 <h4>iWant - Vue.js & BootStrap</h4>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <span className="categories"><i className="fa fa-tag" />Branding, Illustration</span>
+                <p>The app has four pages to add different items, and can be expandable to add more. When entering items, there must be at least 3-characters in the entry, and will stretch-animate until the correct amount of characters are added to the entry. VUE default setting was used when creating the project and routes were manually installed near the end of development.<br/><br/>
+When adding and deleting an item, css animations playfully indicate the action. The routing allows for easy navigation between the pages.</p>
+                <span className="categories"><i className="fa fa-tag" />Vue, Bootstrap, Web Design</span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
+                <a target="_blank" href="https://iwant-app.herokuapp.com/">Live-Site</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-07 End */}
@@ -213,11 +214,11 @@ export default class Portfolio extends Component {
               <img className="scale-with-grid" src="images/portfolio/modals/m-ebuys11.png" alt />
               <div className="description-box">
                 <h4>eBuys - Ruby on Rails, React.js & PostgreSQL</h4>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <span className="categories"><i className="fa fa-tag" />Webdesign, Photography</span>
+                <p>This React & Ruby on Rails App is a simple wish list for the person who enjoys doing their shopping online.</p>
+                <span className="categories"><i className="fa fa-tag" />React, Ruby on  Rails, PostgreSQL, Bulma Framework</span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
+                <a target="_blank" href="https://ebuys.herokuapp.com/">Live-Site</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-01 End */}

@@ -13,25 +13,19 @@ export default class Resume extends Component {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <h3>Freelance</h3>
-                <p className="info">Web Developer <span>•</span> <em className="date">2018</em></p>
+                <h3>General Assembly</h3>
+                <p className="info">Web Development<span></span> <em className="date"></em></p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+
                 </p>
               </div>
             </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
-                <h3>Catskills Retreats</h3>
-                <p className="info">Managing Partner <span>•</span> <em className="date">2016</em></p>
+                <h3>Marylhurst University</h3>
+                <p className="info">MBA, Finance<span></span> <em className="date"></em></p>
                 <p>
-                  Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+
                 </p>
               </div>
             </div> {/* item end */}
@@ -46,25 +40,20 @@ export default class Resume extends Component {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <h3>Design</h3>
-                <p className="info">Designer <span>•</span> <em className="date">March 2010 - Present</em></p>
+                <h3>Freelance</h3>
+                <p className="info">Web Developer<span>•</span> <em className="date">2018 - Present</em></p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                  Please visit <a target="_blank" href="https://amitzaman.com/portfolio/">AmitZaman.com</a> to see a collection of all projects with direct links to live deployments.
                 </p>
               </div>
             </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
-                <h3>Design 2</h3>
-                <p className="info">Designer <span>•</span> <em className="date">March 2007 - February 2010</em></p>
+                <h3>General Assembly</h3>
+                <p className="info">Web Development Fellow<span>•</span> <em className="date">2018</em></p>
                 <p>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                  Participated in General Assembly's Web Development Immersive (WDI), a +450-hour full-time immersive web development program, completing in-class and personal projects focused on real-world applications of web
+                  development principles, tools and best practices.
                 </p>
               </div>
             </div> {/* item end */}

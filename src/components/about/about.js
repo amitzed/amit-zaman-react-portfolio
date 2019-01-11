@@ -6,32 +6,25 @@ export default class About extends Component {
       <section id="about">
               <div className="row">
                 <div className="three columns">
-                  <img className="profile-pic" src="images/profilepic.jpg" alt />
+                  <img className="profile-pic" src="images/az-logo2.png" alt />
                 </div>
                 <div className="nine columns main-col">
                   <h2>About Me</h2>
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                    voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                    sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+                  <p>Known among peers and co-workers to be a considerate yet driven leader and team player. The combination of my analytical and creative nature has continually produced well thought out decisions that have kept the understanding and accessibility for others in mind. I have always been motivated to take both unorthodox and time-tested routes to find order out of chaos and ultimately simplify it without sacrificing beauty and functionality. As a developer in an unending quest to merge with new concepts, I am eager to contribute to and grow with new challenges.
                   </p>
                   <div className="row">
                     <div className="columns contact-details">
-                      <h2>Contact Details</h2>
+                      <h2>Contact</h2>
                       <p className="address">
                         <span>Amit Zaman</span><br />
-                        <span>1234 Pond Drive<br />
-                          New York, NY 10025
-                        </span><br />
-                        <span>(123)456-7890</span><br />
-                        <span>amitZMN@gmail.com</span>
+
+                      <span>LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/amitzaman/"><i className="fa fa-linkedin" /></a><br/>GitHub: <a target="_blank" href="https://github.com/amitzed"><i className="fa fa-github" /></a><br/>WordPress Main Site: <a target="_blank" href="https://amitzaman.com/"><i className="fa fa-globe" /></a></span><br />
+                        <span><a href="mailto:amitZMN@gmail.com">eMail Me</a></span>
                       </p>
                     </div>
                     <div className="columns download">
                       <p>
-                        <a href="#" className="button"><i className="fa fa-download" />Download Resume</a>
+                        <a target="_blank" href="https://amitzaman.files.wordpress.com/2019/01/az-resume-email-2.pdf" className="button"><i className="fa fa-download" />View / Download Resume</a>
                       </p>
                     </div>
                   </div> {/* end row */}
