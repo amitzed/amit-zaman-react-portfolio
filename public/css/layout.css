@@ -205,8 +205,6 @@ ul#nav li.current a { color: #feda6a; }
 
 #about h2 {
   font-family: 'Titillium Web', sans-serif;
-  /* font-family: 'Roboto Slab', serif; */
-  /* font-family: 'Montserrat', sans-serif; */
    color: #feda6a;
    margin-bottom: 12px;
 }
@@ -219,8 +217,8 @@ ul#nav li.current a { color: #feda6a; }
    position: relative;
    width: 120px;
    height: 120px;
-   border-radius: 10px;
-   opacity: .1;
+   border-radius: 100%;
+   opacity: .2;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {

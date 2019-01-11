@@ -6,7 +6,7 @@ export default class About extends Component {
       <section id="about">
               <div className="row">
                 <div className="three columns">
-                  <img className="profile-pic" src="images/az-logo2.png" alt />
+                  <img className="profile-pic" src="images/cw-logo.jpg" alt />
                 </div>
                 <div className="nine columns main-col">
                   <h2>About Me</h2>
@@ -16,7 +16,7 @@ export default class About extends Component {
                     <div className="columns contact-details">
                       <h2>Contact</h2>
                       <p className="address">
-                        <span>Amit Zaman</span><br />
+                        <span>Christina Williams</span><br />
 
                       <span>LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/amitzaman/"><i className="fa fa-linkedin" /></a><br/>GitHub: <a target="_blank" href="https://github.com/amitzed"><i className="fa fa-github" /></a><br/>WordPress Main Site: <a target="_blank" href="https://amitzaman.com/"><i className="fa fa-globe" /></a></span><br />
                         <span><a href="mailto:amitZMN@gmail.com">eMail Me</a></span>

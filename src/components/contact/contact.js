@@ -53,7 +53,7 @@ export default class Contact extends Component {
             <div className="widget widget_contact">
               <h4>Contact</h4>
               <p className="address">
-                Amit Zaman<br />
+                Christina Williams<br />
               <span>LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/amitzaman/"><i className="fa fa-linkedin" /></a><br/>GitHub: <a target="_blank" href="https://github.com/amitzed"><i className="fa fa-github" /></a><br/>WordPress Main Site: <a target="_blank" href="https://amitzaman.com/"><i className="fa fa-globe" /></a></span><br/>
                 <span><a href="mailto:amitZMN@gmail.com">eMail Me</a></span>
               </p>

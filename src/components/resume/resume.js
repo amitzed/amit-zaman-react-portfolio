@@ -43,7 +43,7 @@ export default class Resume extends Component {
                 <h3>Freelance</h3>
                 <p className="info">Web Developer<span>•</span> <em className="date">2018 - Present</em></p>
                 <p>
-                  Please visit <a target="_blank" href="https://amitzaman.com/portfolio/">AmitZaman.com</a> to see a collection of all projects with direct links to live deployments.
+                  Please click <a target="_blank" href="https://amitzaman.com/portfolio/">here</a> to see a collection of all projects with direct links to live deployments.
                 </p>
               </div>
             </div> {/* item end */}

@@ -1,6 +1,6 @@
 let mySiteData = {
   "imagebaseurl":"https://amitzed.github.io",
-  "name": "Amit Zaman",
+  "name": "Christina Williams",
   "role": "Web Developer | Full Stack Developer | AWS CCP"
 }
 
