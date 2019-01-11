@@ -66,19 +66,26 @@ export default class Resume extends Component {
             <h1><span>Skills</span></h1>
           </div>
           <div className="nine columns main-col">
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-              eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-              voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-              voluptatem sequi nesciunt.
+            <p>Areas of Experience include:<br/><br/>
+
+              	FRONT-END: HTML/CSS, BOOTSTRAP, JAVASCRIPT, JQUERY, AJAX, NODE.JS, ANGULAR JS, REACT JS, VUE JS, SASS<br/><br/>
+
+              	BACK-END: EXPRESS, MONGODB, MONGOOSE, RUBY ON RAILS, MYSQL, POSTGRESQL, PHP, PHPMYADMIN<br/><br/>
+
+              	SOFTWARE: ATOM, BASH, TERMINAL, EXCEL, WORD, POWER POINT, AVID PRO-TOOLS<br/><br/>
+
+              	ADDITIONAL: LARAVEL/PHP, GITHUB, WORDPRESS, HUBSPOT, HEROKU, SVG, AWS CERTIFIED CLOUD PRACTITIONER
             </p>
             <div className="bars">
               <ul className="skills">
-                <li><span className="bar-expand photoshop" /><em>Adobe1</em></li>
-                <li><span className="bar-expand illustrator" /><em>Adobe2</em></li>
                 <li><span className="bar-expand wordpress" /><em>Wordpress</em></li>
+                <li><span className="bar-expand hubspot" /><em>HubSpot</em></li>
                 <li><span className="bar-expand css" /><em>CSS</em></li>
                 <li><span className="bar-expand html5" /><em>HTML5</em></li>
+                <li><span className="bar-expand javascript" /><em>JavaScript</em></li>
                 <li><span className="bar-expand jquery" /><em>jQuery</em></li>
+                  <li><span className="bar-expand ruby" /><em>Ruby on Rails</em></li>
+                  <li><span className="bar-expand aws" /><em>Amazon Web Services</em></li>
               </ul>
             </div>{/* end skill-bars */}
           </div> {/* main-col end */}

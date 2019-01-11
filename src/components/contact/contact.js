@@ -9,9 +9,7 @@ export default class Contact extends Component {
             <h1><span>Get In Touch.</span></h1>
           </div>
           <div className="ten columns">
-            <p className="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-              eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-              voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+            <p className="lead">Contact Form
             </p>
           </div>
         </div>
@@ -34,7 +32,7 @@ export default class Contact extends Component {
                 </div>
                 <div>
                   <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                  <textarea cols={50} rows={15} id="contactMessage" name="contactMessage" defaultValue={""} />
+                  <textarea cols={50} rows={5} id="contactMessage" name="contactMessage" defaultValue={""} />
                 </div>
                 <div>
                   <button className="submit">Submit</button>
@@ -45,42 +43,20 @@ export default class Contact extends Component {
               </fieldset>
             </form> {/* Form End */}
             {/* contact-warning */}
-            <div id="message-warning"> Error boy</div>
+            <div id="message-warning"> Error </div>
             {/* contact-success */}
             <div id="message-success">
-              <i className="fa fa-check" />Your message was sent, thank you!<br />
+              <i className="fa fa-check" />Message sent!<br />
             </div>
           </div>
           <aside className="four columns footer-widgets">
             <div className="widget widget_contact">
-              <h4>Address and Phone</h4>
+              <h4>Contact</h4>
               <p className="address">
                 Amit Zaman<br />
-                1234 Pond Drive <br />
-                New York, NY 10025<br />
-                <span>(xxx) xxx-xxxx</span>
+              <span>LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/amitzaman/"><i className="fa fa-linkedin" /></a><br/>GitHub: <a target="_blank" href="https://github.com/amitzed"><i className="fa fa-github" /></a><br/>WordPress Main Site: <a target="_blank" href="https://amitzaman.com/"><i className="fa fa-globe" /></a></span><br/>
+                <span><a href="mailto:amitZMN@gmail.com">eMail Me</a></span>
               </p>
-            </div>
-            <div className="widget widget_tweets">
-              <h4 className="widget-title">Latest Tweets</h4>
-              <ul id="twitter">
-                <li>
-                  <span>
-                    Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                    <a href="#">http://t.co/CGIrdxIlI3</a>
-                  </span>
-                  <b><a href="#">2 Days Ago</a></b>
-                </li>
-                <li>
-                  <span>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                    eaque ipsa quae ab illo inventore veritatis et quasi
-                    <a href="#">http://t.co/CGIrdxIlI3</a>
-                  </span>
-                  <b><a href="#">3 Days Ago</a></b>
-                </li>
-              </ul>
             </div>
           </aside>
         </div>
