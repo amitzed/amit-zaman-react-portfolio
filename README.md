@@ -13,6 +13,7 @@
   <img src="az2.png" width="550" title="hover text">
   <img src="az3.png" width="550" title="hover text">
   <img src="az4.png" width="550" title="hover text">
+  <img src="az5.png" width="550" title="hover text">
 </p>
 
 #### To view the site's Heroku deployment, click the name/link on top of this page or you can view [here](https://amit-react-portfolio.herokuapp.com/).
