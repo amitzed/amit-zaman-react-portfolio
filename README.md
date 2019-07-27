@@ -2,7 +2,7 @@
 # [Portfolio Site Made With REACT JS](https://amit-react-portfolio.herokuapp.com/)
 #### Please Click Link Above to View Live Heroku Deployment.
 
-##### A resume/portfolio site made with REACT JS and can be viewed [here](https://amit-react-portfolio.herokuapp.com/).
+##### A Sample resume/portfolio site made with REACT JS and can be viewed [here](https://amit-react-portfolio.herokuapp.com/).
 
 <br/>
 <p align="center">
